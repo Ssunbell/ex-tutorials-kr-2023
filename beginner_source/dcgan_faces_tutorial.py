@@ -28,7 +28,7 @@ DCGAN Tutorial
 # ~~~~~~~~~~~~~~
 # 
 # GAN은 딥러닝 모델에게 훈련 데이터 분포를 포착할 수 있도록 가르친 후에 같은 분포로부터 새로운 데이터를
-# 생성할 수 있도록 도와주는 프레임워크입니다.
+# 생성할 수 있도록 도와주는 프레임워크입니다. 
 # distribution. GANs were invented by Ian Goodfellow in 2014 and first
 # described in the paper `Generative Adversarial
 # Nets <https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf>`__.
