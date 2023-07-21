@@ -9,22 +9,19 @@ DCGAN Tutorial
 
 
 ######################################################################
-# Introduction
+# 개요
 # ------------
 # 
-# This tutorial will give an introduction to DCGANs through an example. We
-# will train a generative adversarial network (GAN) to generate new
-# celebrities after showing it pictures of many real celebrities. Most of
-# the code here is from the DCGAN implementation in
-# `pytorch/examples <https://github.com/pytorch/examples>`__, and this
-# document will give a thorough explanation of the implementation and shed
-# light on how and why this model works. But don’t worry, no prior
-# knowledge of GANs is required, but it may require a first-timer to spend
-# some time reasoning about what is actually happening under the hood.
-# Also, for the sake of time it will help to have a GPU, or two. Lets
-# start from the beginning.
+# 이 튜토리얼은 DCGAN을 예시 코드를 통해 소개해드립니다. 우리는 적대적 생성 신경망(GAN)을
+# 실제 유명인의 사진들을 학습시킨 후 새로운 유명인을 생성해보도록 하겠습니다. 여기 작성된
+# 대부분의 코드는 `pytorch/examples <https://github.com/pytorch/examples>`__
+# 에 있는 DCGAN 구현 코드입니다. 또한, 이 공식 문서는 실제 구현 방식에 대한 설명과 이 모델이
+# 왜 그리고 어떻게 작동하는지에 대해서 명확히 밝혀줄 것입니다. GAN에 대한 어떤 사전 지식이없다고
+# 해서 걱정하지 않으셔도 되긴 하지만, 처음 본 사람들에게는 실제로 이 모델이 어떻게 동작하는지
+# 추론하는데 시간이 필요하실 수 있습니다. 또한, 바쁜 현대인들을 위해 GPU를 한두개 사용하시면
+# 시간을 절약하실 수 있습니다. 처음부터 차차 시작해봅시다.
 # 
-# Generative Adversarial Networks
+# 적대적 생성 신경망 (Generative Adversarial Networks)
 # -------------------------------
 # 
 # What is a GAN?
